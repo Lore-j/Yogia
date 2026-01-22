@@ -152,7 +152,7 @@ h3{
 .btn-whatsapp{
   background: #25D366;
   color: #fff;
-  box-shadow: 0 10px 24px rgba(244,167,185,.35);
+  box-shadow: 0 10px 24px rgba(37,211,102,.25);
 }
 
 .btn-whatsapp:hover{
@@ -432,7 +432,7 @@ h3{
   bottom: 18px;
   z-index: 60;
 
-  background: #25D366;
+  background: #e59bba;
   color:#fff;
   padding: 12px 14px;
   border-radius: 999px;
