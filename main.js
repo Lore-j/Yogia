@@ -12,11 +12,11 @@
   // 2) WhatsApp (PLACEHOLDER)
   // Cuando tengas el número, reemplaza "519XXXXXXXX" por tu número real.
   // Perú: 51 + número (sin +, sin espacios). Ej: 51987654321
-  const phone = "51995736378";
+  const phone = "51958736378";
 
   // Mensaje inicial (puedes editarlo cuando quieras)
   const defaultMsg =
-    "Hola 😊 Quiero pedir un YOGIA (yogurt helado con fruta). ¿Me compartes el menú y precios?";
+    "Hola 😊 Quiero pedir un YOGIA. ¿Me compartes el menú y precios?";
 
   // Arma el link WA
   function buildWhatsAppLink(message = defaultMsg) {
