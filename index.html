@@ -1,0 +1,261 @@
+<!doctype html5>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="YOGIA · Yogurt helado con fruta. Punto de venta al paso en Lambayeque, Perú." />
+
+  <title>YOGIA · Yogurt helado con fruta</title>
+
+  <!-- ✅ Favicon (AJUSTA el nombre si tu archivo se llama distinto) -->
+  <link rel="icon" href="./assets/icons/yogia-favicon.png" type="image/png" />
+
+  <!-- Google Fonts: Poppins (logo/títulos) + Inter (texto) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- ✅ Logo horizontal (AJUSTA el nombre si tu archivo se llama distinto) -->
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <img
+          src="./assets/logos/yogia-horizontal.png"
+          alt="YOGIA · Yogurt helado con fruta"
+          class="brand-logo"
+        />
+      </a>
+
+      <nav class="nav">
+        <a href="#producto">¿Qué es?</a>
+        <a href="#menu">Menú</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#testimonios">Testimonios</a>
+      </nav>
+
+  </header>
+
+  <main id="inicio">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>YOGIA</h1>
+          <p class="subtitle">Yogurt helado con fruta</p>
+
+          <p class="hero-desc">
+            Yogurt blanco, suave y dulce. El sabor lo eliges con frutas, toppings y salsa.
+            Compra rápida, al paso.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#" id="btnWhatsAppHero" target="_blank" rel="noopener">
+              Pedir por WhatsApp
+            </a>
+            <a class="btn btn-ghost" href="#menu">
+              Ver menú
+            </a>
+          </div>
+
+          <div class="hero-badges">
+            <span class="badge">Fruta visible</span>
+            <span class="badge">Porciones claras</span>
+            <span class="badge">Alta rotación</span>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <!-- ✅ Hero image (AJUSTA el nombre si tu archivo se llama distinto) -->
+          <img
+            src="./assets/hero/yogia-topping-chocolate.png"
+            alt="Yogurt helado con fruta y topping"
+            class="hero-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ¿Qué es? -->
+    <section class="section" id="producto">
+      <div class="container">
+        <h2>¿Qué es YOGIA?</h2>
+
+        <div class="cards-3">
+          <article class="card">
+            <h3>Base única</h3>
+            <p>
+              Yogurt helado cremoso y ligero. Fresco, natural y perfecto para combinar con fruta, toppings y salsa.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>El sabor lo hacen tus toppings</h3>
+            <p>
+              La experiencia cambia con frutas, toppings y salsas:
+              tú combinas, nosotros lo servimos rápido.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Al paso</h3>
+            <p>
+              Compra y retira inmediatamente. Porciones claras, atención ágil y listas para disfrutar en tu día.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menú -->
+    <section class="section section-soft" id="menu">
+      <div class="container">
+        <h2>Menú</h2>
+        <p class="section-lead">
+          Elige tamaño y arma tu combinación con fruta, topping y salsa.
+        </p>
+
+        <div class="cards-3">
+          <article class="card price">
+            <h3>Pequeño</h3>
+            <p class="muted">Yogurt + frutas + topping + salsa</p>
+            <p class="price-tag">Desde S/ —</p>
+          </article>
+
+          <article class="card price featured">
+            <h3>Mediano</h3>
+            <p class="muted">Más yogurt + más combinación</p>
+            <p class="price-tag">Desde S/ —</p>
+          </article>
+
+          <article class="card price">
+            <h3>Grande</h3>
+            <p class="muted">Para compartir o full antojo</p>
+            <p class="price-tag">Desde S/ —</p>
+          </article>
+        </div>
+
+        <div class="menu-grid">
+          <div class="menu-box">
+            <h3>Frutas</h3>
+            <ul class="list">
+              <li>Fresa</li>
+              <li>Plátano</li>
+              <li>Piña</li>
+              <li>Mango</li>
+              <li>Sandía</li>
+              <li>Uva</li>
+              <li>Kiwi</li>
+              <li>Durazno</li>
+            </ul>
+          </div>
+
+          <div class="menu-box">
+            <h3>Toppings</h3>
+            <ul class="list">
+              <li>Cereal en aritos</li>
+              <li>Zucaritas</li>
+              <li>Maní</li>
+              <li>Chispitas de chocolate</li>
+              <li>Nueces (opcional)</li>
+              <li>Gomitas (opcional)</li>
+              <li>Masmelows (opcional)</li>
+            </ul>
+          </div>
+
+          <div class="menu-box">
+            <h3>Salsas</h3>
+            <ul class="list">
+              <li>Chocolate</li>
+              <li>Fresa</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ubicación -->
+    <section class="section" id="ubicacion">
+      <div class="container">
+        <h2>Ubicación y horario</h2>
+
+        <div class="location-grid">
+          <div class="location-card">
+            <h3>Lambayeque, Perú</h3>
+            <p class="muted">Dirección: (por definir)</p>
+            <p class="muted">Horario: (por definir)</p>
+
+            <a class="btn btn-primary" href="#" id="btnWhatsAppLocation" target="_blank" rel="noopener">
+              Consultar por WhatsApp
+            </a>
+          </div>
+
+          <div class="map-card">
+            <!-- Reemplaza este iframe por el embed real cuando tengas el link de Google Maps -->
+            <div class="map-placeholder">
+              <p><strong>Mapa</strong></p>
+              <p class="muted">Aquí irá el Google Maps Embed cuando tengas la dirección exacta.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="section section-soft" id="testimonios">
+      <div class="container">
+        <h2>Testimonios</h2>
+        <p class="section-lead">Opiniones iniciales .</p>
+
+        <div class="cards-3">
+          <article class="card">
+            <p class="quote">“Súper fresco y se siente la fruta real. Me encantó.”</p>
+            <p class="muted">— @Brendita</p>
+          </article>
+
+          <article class="card">
+            <p class="quote">“Rápido, rico y nada empalagoso. Perfecto para el calor.”</p>
+            <p class="muted">— @Juan</p>
+          </article>
+
+          <article class="card">
+            <p class="quote">“El chocolate con fruta queda brutal. Volvería.”</p>
+            <p class="muted">— @Mailin</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Botón flotante WhatsApp -->
+  <a class="whatsapp-float" href="#" id="btnWhatsAppFloat" aria-label="Pedir por WhatsApp" target="_blank" rel="noopener">
+    WhatsApp
+  </a>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <!-- ✅ Logo sello (AJUSTA el nombre si tu archivo se llama distinto) -->
+        <img src="./assets/logos/Logo.png" alt="YOGIA" class="footer-logo" />
+        <div>
+          <p class="footer-title">YOGIA</p>
+          <p class="muted">Yogurt helado con fruta</p>
+        </div>
+      </div>
+
+
+      <p class="muted">© <span id="year"></span> YOGIA. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="./main.js"></script>
+</body>
+</html>
